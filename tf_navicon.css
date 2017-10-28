@@ -1,16 +1,12 @@
 @charset "utf-8";
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 5
-   Tutorial Case
-   
-   Author:   
-   Date:     
-   
+   Author:   Patrick J Clawson, M.Ed.
+   Date:     10.27.17
+
    Filename: tf_navicon.css
-   
-   This file contains styles used to control 
+
+   This file contains styles used to control
    a navicon menu.
 
 */
@@ -25,11 +21,11 @@
 
 
 /* ===============================
-   Mobile Devices: 0 to 480px 
+   Mobile Devices: 0 to 480px
    ===============================
 */
 
 @media only screen and (max-width: 480px) {
 
-   
+
 }

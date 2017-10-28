@@ -1,12 +1,8 @@
 @charset "utf-8";
 
 /*
-   New Perspectives on HTML5 and CSS3, 7th Edition
-   Tutorial 5
-   Tutorial Case
-   
    Filename: tf_styles3.css
-   
+
    This file contains the screen styles used with the Trusted
    Friends page on articles of interest
 
@@ -21,7 +17,7 @@
 
 /* HTML and Body Styles */
 
-   
+
 
 html {
    background: url(tf_back1.png) center center / cover no-repeat fixed, rgb(134,176,232);
@@ -35,7 +31,7 @@ body {
    max-width: 1024px;
    margin: 0px auto;
 }
-   
+
 /* Body Header Styles */
 
 body > header {
@@ -182,53 +178,53 @@ body > section#main {
 }
 
 /* ===============================
-   Mobile Devices: 0 to 480px 
+   Mobile Devices: 0 to 480px
    ===============================
 */
 
 @media only screen and (max-width: 480px) {
 
    /* Navigation styles */
-   
+
    nav.horizontal ul li a {
       text-align: left;
       text-indent: 12px;
    }
-   
+
    /* Aside Styles */
-   
+
    body > aside {
       display: none;
    }
-   
+
    /* Navicon Menu Styles */
-   
+
    a#navicon {
       display: block;
    }
-   
+
    nav.horizontal ul {
       display: none;
    }
-   
-   
+
+
    a#navicon:hover+ul, nav.horizontal ul:hover {
       display: block;
    }
 }
 
 /* ===============================
-   Tablet Devices: 481px to 768px 
+   Tablet Devices: 481px to 768px
    ===============================
 */
 
 @media only screen and (min-width: 481px) {
 
-   
 
-   
+
+
    /* Article H1 Styles */
-   
+
    section#main > h1 {
       color: rgb(207, 222, 172);
       font-size: 2.5em;
@@ -236,33 +232,33 @@ body > section#main {
       margin-bottom: 40px;
       text-shadow: black 2px 2px 4px;
    }
-   
+
    /* Navigation Styles */
-   
+
    nav.horizontal li {
       font-size: 1.2em;
    }
-   
+
    /* Tablet Flex Styles */
-   
+
    nav.horizontal ul {
       display: -webkit-flex;
       display: flex;
       -webkit-flex-flow: row nowrap;
       flex-flow: row nowrap;
    }
-   
+
    nav.horizontal li {
       -webkit-flex: 1 1 auto;
       flex: 1 1 auto;
    }
-   
+
    /* Navicon Menu Styles */
-   
+
    a#navicon {
       display: none;
    }
-   
+
    /* Image Styles */
    body > section#main > article img {
       box-shadow: 3px 3px 10px rgb(151, 151, 151);
@@ -281,11 +277,11 @@ body > section#main {
 @media only screen and (min-width: 769px) {
 
    /* HTML and Body Styles */
-   
+
    html {
       background: url(tf_back1.png) center center / cover no-repeat fixed;
    }
-   
+
    body {
       width: 90%;
       max-width: 1024px;
